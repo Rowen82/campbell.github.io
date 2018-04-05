@@ -1,0 +1,127 @@
+/* This is a skin CSS file where you can set a universal color that will affect all headings and link colors */
+/* Just replace the hex value of the color and background-color with the one you want and you're all set */
+p a, h1, h2, h3, h4, ul.testimonials li span, div#authorBio h2 a, div.commentBody a, ul.checkList li a  {
+	color: #2b92fa; 
+}
+
+p a:hover, div#authorBio h2 a:hover, a.replyLink:hover, ul.checkList li a:hover {
+	background-color: #2b92fa; /* The background color of the element when you move your mouse over it */
+	color: white; /* The text color of the element when you move your mouse over it */
+}
+
+div.productHeadingType1 .productPriceContainer span, div.productHeadingType2 .productPriceContainer span {
+	color: #00aeff; /* The color of the price text */
+}
+
+
+
+/* Color values for other elements */
+.dark, div#authorBio h2, ul.arrowList li a:hover, div.blogPost h1 a:hover, div#commentsWrapper h4, div#submitComment h4, div.commentBody span a:hover, div#blogExtra h4, h4, h5, h6, ul.basicList li a:hover, 
+	.top a:hover {
+	color: #424b56; /* The darker color used by headings (i.e. darker gray) */
+}
+
+.borderImg {
+	border: 5px solid #f4f6f7; /* Color of the 5px border around the images */
+}
+
+	.borderImg:hover {
+		border: 5px solid #e3e7e9; /* Color of the 5px border around the images on mouse over */
+	}
+
+
+
+/* Main menu colors */
+#nav li a {
+	color: #71777f;
+}
+
+#nav li a:hover {
+	color: #2b333d;
+}
+
+#nav li ul li a:hover {
+	background: white;
+}
+
+
+
+/* Tabs */
+div.tabbedArea {
+	border: 5px solid #f4f6f7;
+}
+
+div.tabHeading {
+	background-color: #eff1f3;
+}
+
+ul.tabs li a:hover {
+    color: #737981;
+}
+
+ul.tabs li.active a {
+	background-color: white;
+	color: #2b333d;
+}
+
+
+
+/* Slider colors */
+/*
+You can go ahead and change this color value with any color you want, it will
+be applied on both homepage slider background and on the secondary pages 
+breadcrumbs background
+*/
+div.sliderSection, div.breadcrumbsSection {
+	background: #b2b9c2 url("../img/sliderBG.png") 0 0 repeat-x;
+}
+
+
+
+/* Breadcrumbs on secondary pages */
+div.breadcrumbsSection h1 {
+	color: white;
+}
+	
+
+	
+/* List styles */
+ul.arrowList li a, div.commentBody span a, ul.arrowList li, ul.checkList li, ul.basicList li, ul.basicList li a, .top a {
+	color: #6c747e;
+}
+
+
+
+/* Blog related */
+div.blogPost h1 a {
+	color: #686e75;
+}
+
+div.blogPostMeta a, a.flatButton, div#portfolioSorting ul li a {
+    background-color: #e6e8e9;
+    color: #525559;
+}
+
+	div.blogPostMeta a:hover, a.flatButton:hover, div#portfolioSorting ul li a:hover {
+		background-color: #7c8187;
+		color: white;
+	}
+
+	div.blogPostMeta p.commentNo a {
+		background: #e6e8e9 url('../img/commentBubble.png') 10% center no-repeat;
+	}
+
+	div.blogPostMeta p.commentNo a:hover {
+		background: #7c8187 url('../img/commentBubble.png') 10% center no-repeat;
+	}
+
+div.commentBody span, div#submitComment label span, .quoteLeft, .quoteRight, .quoteFull, form.contactForm label span {
+	color: #a8b0bd;
+}
+
+
+
+/* Portfolio styles */
+div#portfolioSorting h4 {
+	color: white;
+}
